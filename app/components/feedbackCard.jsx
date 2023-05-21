@@ -7,7 +7,7 @@ const FeedbackCard = ({ data }) => {
 	const { title, description, upvotes, comments = [], category } = data;
 
 	return (
-		<div className='bg-white py-6 px-6 rounded-lg flex h-[151px] min-w-[689px] items-start text-slate-700 gap-8'>
+		<div className='bg-white py-6 px-6 rounded-lg flex min-h-[151px] min-w-[689px] items-start text-slate-700 gap-8'>
 			<div className=' w-[10%] flex items-center justify-start flex-col '>
 				<div className=' bg-blue-50 p-2 flex flex-col justify-center items-center rounded-xl w-fit'>
 					<IoIosArrowUp className='text-blue-600' />
